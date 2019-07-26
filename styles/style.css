@@ -358,8 +358,9 @@ header .log-in {
 
 @media (min-width: 1200px) {
   .main-content .jackpot {
-    width: 26em;
+    width: 30em;
     margin: 0 auto;
+    height: 6em;
   }
 }
 

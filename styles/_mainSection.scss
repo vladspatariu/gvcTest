@@ -200,8 +200,9 @@
         padding: 2em 0 1em 0;
         margin: -1em auto 1em auto;
             @include for-size(desktop-up) {
-                width: 26em;
+                width: 30em;
                 margin: 0 auto;
+                height: 6em;
             }
         #jackpot-value {
             float: right;
