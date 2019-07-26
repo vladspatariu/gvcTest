@@ -1,0 +1,663 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: #211551;
+  min-height: 4.5em;
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 0 25%;
+    min-height: 2.5em;
+  }
+}
+
+header #logo {
+  background: url("media/pc-logo-2017.png") no-repeat top left;
+  margin: 7% -40% 0% 4%;
+  min-width: 18em;
+  min-height: 2em;
+  float: left;
+  background-size: 50%;
+  display: inline-block;
+}
+
+@media (min-width: 1200px) {
+  header #logo {
+    margin: 1.3% 0 0 0;
+  }
+}
+
+header .btn-blue {
+  background: #3f74d9;
+  color: white;
+  text-decoration: none;
+  padding: 0.7em 2em;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+header .btn-blue:hover {
+  background: #285fc8;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header .btn-blue:active {
+  background: #193c7f;
+}
+
+@media (min-width: 1200px) {
+  header .btn-blue {
+    font-size: 0.6em;
+    padding: 0.9em 3em;
+  }
+}
+
+header .log-in {
+  display: inline-block;
+  margin: 7% 6% 0 0;
+  float: right;
+}
+
+@media (min-width: 1200px) {
+  header .log-in {
+    margin: 1% 0 0 0;
+  }
+}
+
+.main-content {
+  background-color: #110540;
+  color: #fff;
+}
+
+.main-content .banner {
+  background: url("media/mobile_cover.png") no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 44vh;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner {
+    background: url("media/desktop_cover.png") no-repeat;
+    background-size: cover;
+    height: 55vh;
+  }
+}
+
+.main-content .banner .titles {
+  text-align: center;
+  padding-top: 1em;
+  position: relative;
+  height: 44vh;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner .titles {
+    height: 55vh;
+  }
+}
+
+.main-content .banner .titles .bonus-title {
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 1.5em;
+  color: #d3137a;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner .titles .bonus-title {
+    margin: 3% 0 0 23%;
+  }
+}
+
+.main-content .banner .titles .main-title {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner .titles .main-title {
+    margin: 0 0 0 24%;
+    font-weight: 900;
+  }
+}
+
+.main-content .banner .titles .new-players {
+  font-family: Roboto Light;
+  font-size: 0.5em;
+  color: #667085;
+  background-color: #000000cf;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner .titles .new-players {
+    color: #d1cccc;
+    font-size: 0.6em;
+    left: 0;
+    right: 0;
+  }
+}
+
+.main-content .banner .titles .get-started {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 6em;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner .titles .get-started {
+    position: relative;
+    margin: 8% 0 0 24%;
+  }
+}
+
+.main-content .banner .titles .get-started .btn-green {
+  background: #52aa3f;
+  color: white;
+  text-decoration: none;
+  padding: 0.7em 2em;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 0.7em 6em;
+}
+
+.main-content .banner .titles .get-started .btn-green:hover {
+  background: #448c34;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-content .banner .titles .get-started .btn-green:active {
+  background: #254d1d;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner .titles .get-started .btn-green {
+    padding: 1em 2.5em;
+    font-size: 0.7em;
+  }
+}
+
+.main-content .banner .titles #egr-casino {
+  background: url("media/EGRCasino.png") no-repeat;
+  background-size: 100%;
+  width: 12em;
+  position: absolute;
+  height: 2em;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .main-content .banner .titles #egr-casino {
+    position: absolute;
+    top: -1.8em;
+    right: 0;
+    bottom: 0;
+    left: 26em;
+    background-size: 85%;
+  }
+}
+
+.main-content .deposits {
+  padding: 1em 0 0 0;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits {
+    padding: 0 25%;
+    margin-top: 1em;
+  }
+}
+
+.main-content .deposits .deposit-item {
+  display: block;
+  margin: 1em 0;
+  width: 21em;
+  height: 9em;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .deposit-item {
+    display: inline-block;
+    margin: 1em 0.6em 0 0;
+    width: 11.6em;
+    height: 9em;
+  }
+}
+
+.main-content .deposits .number-circle {
+  border: 2px #fff solid;
+  display: inline-block;
+  border-radius: 50%;
+  font-family: 'Roboto';
+  font-size: 3em;
+  font-weight: bold;
+  padding: 25px 40px;
+  margin: 0 0 0 7%;
+  float: left;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .number-circle {
+    font-size: 2em;
+    padding: 15px 25px;
+    margin: 0;
+  }
+}
+
+.main-content .deposits .deposit-title {
+  display: inline-block;
+  font-family: 'Roboto';
+  padding: 0 0 0 1em;
+  width: 50%;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .deposit-title {
+    width: 33%;
+    text-align: left;
+    margin-left: 0.5em;
+    padding: 0;
+  }
+}
+
+.main-content .deposits .deposit-title div {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: x-large;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .deposit-title div {
+    font-size: larger;
+    line-height: 1em;
+  }
+}
+
+.main-content .deposits .deposit-title .deposit-subtitle {
+  font-family: roboto condensed;
+  font-weight: 100;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .deposit-title .deposit-subtitle {
+    font-size: 0.7em;
+    width: 10em;
+    margin-top: 0.5em;
+  }
+}
+
+.main-content .deposits .vertical-line {
+  border-left: 2px solid #fff;
+  height: 2.6em;
+  margin: 1.1em 0 0 4.8em;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .vertical-line {
+    display: none;
+  }
+}
+
+.main-content .deposits .horizontal-line {
+  display: none;
+  width: 2em;
+  border-top: 2px solid #fff;
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .horizontal-line {
+    display: inline-block;
+    padding: 4% 8% 0 0;
+    margin-right: 2%;
+  }
+}
+
+.main-content .jackpot {
+  background: url("media/jackpot.png") no-repeat;
+  width: 23.4em;
+  height: 5em;
+  background-size: 100%;
+  padding: 2em 0 1em 0;
+  margin: -1em auto 1em auto;
+}
+
+@media (min-width: 1200px) {
+  .main-content .jackpot {
+    width: 26em;
+    margin: -3em auto 0 auto;
+  }
+}
+
+.main-content .jackpot #jackpot-value {
+  float: right;
+  margin: -0.7em 0 0 0;
+  font-size: 1em;
+  font-family: Roboto Condensed;
+  font-weight: bold;
+  letter-spacing: 8px;
+  padding: 0 3% 0% 3%;
+  background: url("media/counter_image.png") no-repeat;
+  background-size: 169px 24px;
+}
+
+@media (min-width: 1200px) {
+  .main-content .jackpot #jackpot-value {
+    margin: -0.5em 0 0 0;
+    letter-spacing: 9px;
+    padding: 0 0.7em;
+    background-size: 177px 24px;
+  }
+}
+
+.main-content .legal {
+  background-color: #211551;
+  color: #fff;
+  margin-top: -1em;
+}
+
+@media (min-width: 1200px) {
+  .main-content .legal {
+    margin: 0 25%;
+  }
+}
+
+.main-content .legal span {
+  font-family: Roboto Condensed;
+}
+
+.main-content input {
+  display: none;
+  visibility: hidden;
+}
+
+.main-content label {
+  display: block;
+  padding: 0.5em 1em 1em 1em;
+  text-align: left;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.main-content label:hover {
+  color: #fff;
+}
+
+.main-content label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: 400;
+  font-size: 1.5em;
+  content: "+";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 3px;
+  color: red;
+}
+
+.main-content #expand {
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #110540;
+  color: #FFF;
+}
+
+.main-content #expand p {
+  padding-top: 1em;
+}
+
+.main-content section {
+  padding: 0 20px;
+}
+
+.main-content #toggle:checked ~ #expand {
+  height: 200px;
+}
+
+.main-content #toggle:checked ~ label::before {
+  content: "-";
+}
+
+.main-content .payment-logos {
+  margin-top: 1em;
+  padding: 0 0.5em 0.3em 0.5em;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos {
+    margin: 0 25%;
+    text-align: left;
+  }
+}
+
+.main-content .payment-logos .payment-logo1 {
+  background: transparent url(media/logo1.png) no-repeat center;
+  background-color: #0d0431;
+  padding: 2em 5.5em;
+  border-radius: 3px;
+  width: 10em;
+  display: inline-block;
+  background-size: 50%;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos .payment-logo1 {
+    padding: 1em 2em;
+    background-size: 35%;
+    width: 5em;
+    margin: 1em 0 0.5em 0;
+  }
+}
+
+.main-content .payment-logos .payment-logo2 {
+  background: transparent url(media/logo2.png) no-repeat center;
+  background-color: #0d0431;
+  padding: 2em 5.5em;
+  border-radius: 3px;
+  width: 10em;
+  display: inline-block;
+  background-size: 90%;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos .payment-logo2 {
+    padding: 1em 2em;
+    background-size: 75%;
+    width: 5em;
+    margin: 1em 0 0.5em 0;
+  }
+}
+
+.main-content .payment-logos .payment-logo3 {
+  background: transparent url(media/logo3.png) no-repeat center;
+  background-color: #0d0431;
+  padding: 2em 5.5em;
+  border-radius: 3px;
+  width: 10em;
+  display: inline-block;
+  background-size: 50%;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos .payment-logo3 {
+    padding: 1em 2em;
+    background-size: 35%;
+    width: 5em;
+    margin: 1em 0 0.5em 0;
+  }
+}
+
+.main-content .payment-logos .payment-logo4 {
+  background: transparent url(media/logo4.png) no-repeat center;
+  background-color: #0d0431;
+  padding: 2em 5.5em;
+  border-radius: 3px;
+  width: 10em;
+  display: inline-block;
+  background-size: 60%;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos .payment-logo4 {
+    padding: 1em 2em;
+    background-size: 45%;
+    width: 5em;
+    margin: 1em 0 0.5em 0;
+  }
+}
+
+.main-content .payment-logos .payment-logo5 {
+  background: transparent url(media/logo5.png) no-repeat center;
+  background-color: #0d0431;
+  padding: 2em 5.5em;
+  border-radius: 3px;
+  width: 10em;
+  display: inline-block;
+  background-size: 90%;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos .payment-logo5 {
+    padding: 1em 2em;
+    background-size: 75%;
+    width: 5em;
+    margin: 1em 0 0.5em 0;
+  }
+}
+
+.main-content .payment-logos .payment-logo6 {
+  background: transparent url(media/logo6.png) no-repeat center;
+  background-color: #0d0431;
+  padding: 2em 5.5em;
+  border-radius: 3px;
+  width: 10em;
+  display: inline-block;
+  background-size: 90%;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos .payment-logo6 {
+    padding: 1em 2em;
+    background-size: 75%;
+    width: 5em;
+    margin: 1em 0 0.5em 0;
+  }
+}
+
+.main-content .payment-logos .secondary-desktop-logos {
+  display: none;
+}
+
+.main-content .payment-logos .secondary-desktop-logos .other-logo1 {
+  background: transparent url(media/otherlogos1.png) no-repeat;
+  background-size: 100%;
+  padding: 1em 4.2em;
+  display: inline-block;
+  margin: 0 auto;
+  height: 2.4em;
+}
+
+.main-content .payment-logos .secondary-desktop-logos .other-logo2 {
+  background: transparent url(media/otherlogos2.png) no-repeat;
+  background-size: 100%;
+  padding: 1.2em 3em;
+  display: inline-block;
+  margin: 0 auto;
+  height: 2.8em;
+}
+
+@media (min-width: 1200px) {
+  .main-content .payment-logos .secondary-desktop-logos {
+    display: inline-block;
+  }
+}
+
+#footer-information {
+  height: auto;
+  background-color: #0d0431;
+  color: #667085;
+  font-family: Roboto Regular;
+  font-size: smaller;
+}
+
+@media (min-width: 1200px) {
+  #footer-information {
+    padding: 2% 25% 1% 25%;
+  }
+}
+
+#footer-information .other-logo-container {
+  background-color: #0d0431;
+  padding: 1em 0;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  #footer-information .other-logo-container {
+    display: none;
+  }
+}
+
+#footer-information .other-logo-container .other-logo1 {
+  background: transparent url(media/otherlogos1.png) no-repeat;
+  background-size: 100%;
+  padding: 1em 4.2em;
+  display: inline-block;
+  margin: 0 auto;
+  height: 0;
+}
+
+#footer-information .other-logo-container .other-logo2 {
+  background: transparent url(media/otherlogos2.png) no-repeat;
+  background-size: 100%;
+  padding: 1.2em 3em;
+  display: inline-block;
+  margin: 0 auto;
+  height: 0;
+}
+
+#footer-information .footer-content {
+  padding: 0 1em;
+}
+
+#footer-information .footer-content .footer-address {
+  padding: 2em 0 1em 0;
+}
+
+#footer-information .footer-content .footer-address #minimum-age {
+  background: url("media/18.png") no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  padding: 2em 0;
+  width: 4em;
+}
+
+#footer-information .footer-content .footer-address p {
+  margin: -3.3em 0 1em 5em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  /* no underline */
+}
+/*# sourceMappingURL=style.css.map */

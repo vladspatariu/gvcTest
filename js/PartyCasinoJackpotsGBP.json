@@ -1,0 +1,1122 @@
+{"PartyCasino Jackpots json feed": [
+  {
+    "jackpotName": "Cosmic Fortune Jackpot",
+    "jackpotValue": "73922.46 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "cf_midi",
+        "subjackpotValue": "473.78 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "cf_major",
+        "subjackpotValue": "20675.93 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "cf_mega",
+        "subjackpotValue": "52233.46 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "cf_rapidfix",
+        "subjackpotValue": "89.88 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "cf_minifix",
+        "subjackpotValue": "449.41 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Mega Moolah",
+    "jackpotValue": "3401092.78 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Mega Moolah",
+        "subjackpotValue": "3401092.78 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "INCA JACKPOT",
+    "jackpotValue": "58766.93 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "INCA JACKPOT",
+        "subjackpotValue": "58766.93 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "SHOT JACKPOT",
+    "jackpotValue": "108847.06 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "GRAND TITLE SHOT",
+        "subjackpotValue": "4930.04 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "GRAND DERBY SHOT",
+        "subjackpotValue": "2284.99 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "GRAND POT SHOT EU",
+        "subjackpotValue": "5592.66 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "SUPER SHOT EU",
+        "subjackpotValue": "96039.37 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Casino Holdem Jumbo7 Jackpot",
+    "jackpotValue": "2172140.83 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Casino Holdem Jumbo7 Jackpot",
+        "subjackpotValue": "2172140.83 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Hot Hot Jackpot",
+    "jackpotValue": "52067.58 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Hot Hot Jackpot",
+        "subjackpotValue": "52067.58 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Fluffy Mega Jackpot",
+    "jackpotValue": "18604.05 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Fluffy Mega Jackpot",
+        "subjackpotValue": "18604.05 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Basic Instinct",
+    "jackpotValue": "89365.01 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Basic Instinct",
+        "subjackpotValue": "89365.01 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Divine Fortune Jackpot",
+    "jackpotValue": "93627.39 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "gof_mega",
+        "subjackpotValue": "93627.39 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Raffle Jackpot",
+    "jackpotValue": "0.00 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Raffle Jackpot",
+        "subjackpotValue": "0.00 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Gold Rally",
+    "jackpotValue": "580858.22 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Gold Rally",
+        "subjackpotValue": "580858.22 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Purple Hot",
+    "jackpotValue": "93948.35 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Purple Hot",
+        "subjackpotValue": "93948.35 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Gift Of Wealth",
+    "jackpotValue": "118634.97 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "bof_mega",
+        "subjackpotValue": "118634.97 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "REEL JACKPOT",
+    "jackpotValue": "42885.81 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "MEGA",
+        "subjackpotValue": "14567.93 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "NORSE REEL MAJOR",
+        "subjackpotValue": "14305.57 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "RIVER BOAT MAJOR",
+        "subjackpotValue": "14012.30 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "IGT Mega Jackpot",
+    "jackpotValue": "793945.86 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "IGT Mega Jackpot",
+        "subjackpotValue": "793945.86 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Casino Stud Poker Live Jackpot",
+    "jackpotValue": "52686.45 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Casino Stud Poker Live Jackpot",
+        "subjackpotValue": "52686.45 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "BP Genie Jackpots",
+    "jackpotValue": "0.00 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Genie Jackpots",
+        "subjackpotValue": "0.00 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "BP JACKPOT KING",
+    "jackpotValue": "681758.52 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "JACKPOT KING",
+        "subjackpotValue": "681758.52 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Esmeralda Jackpot",
+    "jackpotValue": "898444.05 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Esmeralda Jackpot",
+        "subjackpotValue": "898444.05 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Caribbean Jackpot",
+    "jackpotValue": "25484.31 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "cstud",
+        "subjackpotValue": "25484.31 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Time For A Deal",
+    "jackpotValue": "54178.66 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Time For A Deal",
+        "subjackpotValue": "54178.66 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Streak of Luck Progressive Jackpot",
+    "jackpotValue": "9997.06 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Streak of Luck Progressive Jackpot",
+        "subjackpotValue": "9997.06 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Chests of Plenty Jackpot",
+    "jackpotValue": "171234.05 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Chests of Plenty Jackpot",
+        "subjackpotValue": "171234.05 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Gold Jackpots",
+    "jackpotValue": "468886.22 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Gold Mega Jackpot",
+        "subjackpotValue": "412162.76 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Gold Super Jackpot",
+        "subjackpotValue": "46134.61 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Gold Quick Jackpot",
+        "subjackpotValue": "10170.69 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Gold Blitz Jackpot",
+        "subjackpotValue": "418.15 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "PIZZAJACKPOTTEN Jackpot",
+    "jackpotValue": "9342.75 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "PIZZAJACKPOTTEN MEDIUM Jackpot",
+        "subjackpotValue": "136.59 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "PIZZAJACKPOTTEN LARGE Jackpot",
+        "subjackpotValue": "801.40 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "PIZZAJACKPOTTEN X-LARGE Jackpot",
+        "subjackpotValue": "8404.75 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Ca$h Bash Jackpot",
+    "jackpotValue": "396215.66 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Ca$h Bash Super Jackpot",
+        "subjackpotValue": "2157.51 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Ca$h Bash Mega Jackpot",
+        "subjackpotValue": "394058.16 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "All Bets Blackjack",
+    "jackpotValue": "91135.88 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "All Bets Blackjack",
+        "subjackpotValue": "91135.88 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Medallion Progressive Jackpot",
+    "jackpotValue": "908.56 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Medallion Progressive Jackpot",
+        "subjackpotValue": "908.56 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Gladiator Jackpot",
+    "jackpotValue": "1768358.29 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Gladiator Jackpot",
+        "subjackpotValue": "1768358.29 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "TERMINATORROULETTE Jackpot",
+    "jackpotValue": "15655.83 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "TERMINATORROULETTE T-800 Jackpot",
+        "subjackpotValue": "10168.52 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "TERMINATORROULETTE T-1 Jackpot",
+        "subjackpotValue": "5487.32 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Great Blue Jackpot",
+    "jackpotValue": "110971.41 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Great Blue Jackpot",
+        "subjackpotValue": "110971.41 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Big Series",
+    "jackpotValue": "2098605.22 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "The Big One Super Cash",
+        "subjackpotValue": "2058.80 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "The Big One Blitz Cash",
+        "subjackpotValue": "9.13 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "The Big One Quick Cash",
+        "subjackpotValue": "120.30 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "The Big One Mega Cash",
+        "subjackpotValue": "11255.20 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "The Big One Colossal Cash",
+        "subjackpotValue": "2085161.78 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Caribbean Stud Poker Jackpot",
+    "jackpotValue": "500548.75 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Caribbean Stud Poker Jackpot",
+        "subjackpotValue": "500548.75 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "BP Super Diamond Deluxe",
+    "jackpotValue": "49705.07 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Super Diamond Deluxe",
+        "subjackpotValue": "49705.07 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Blitz Cash",
+    "jackpotValue": "65999.33 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Quick Cash",
+        "subjackpotValue": "47.74 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Blitz Cash",
+        "subjackpotValue": "27.39 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Super Cash",
+        "subjackpotValue": "856.78 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Mega Cash",
+        "subjackpotValue": "14508.66 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Colosal Cash",
+        "subjackpotValue": "50558.76 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Adventures Beyond Wonderland",
+    "jackpotValue": "88119.31 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Adventures Beyond Wonderland",
+        "subjackpotValue": "88119.31 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "KARATE KID",
+    "jackpotValue": "0.00 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "KARATE KID",
+        "subjackpotValue": "0.00 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "DC Super Heroes Jackpot",
+    "jackpotValue": "872313.18 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "DC Super Heroes Jackpot",
+        "subjackpotValue": "872313.18 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Jackpot Giant",
+    "jackpotValue": "300628.39 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Jackpot Giant",
+        "subjackpotValue": "300628.39 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Mystery Cashcano MEGA",
+    "jackpotValue": "51421.99 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Mystery Cashcano GRAND",
+        "subjackpotValue": "2016.70 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Mystery Cashcano MEGA",
+        "subjackpotValue": "49391.60 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Mystery Cashcano MINI",
+        "subjackpotValue": "13.69 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "BP Winstar",
+    "jackpotValue": "162199.36 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Winstar",
+        "subjackpotValue": "162199.36 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Must Go",
+    "jackpotValue": "172193.73 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Must Go 5k Jackpot",
+        "subjackpotValue": "134.80 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Mega Jackpot",
+        "subjackpotValue": "167771.10 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Daily Jackpot",
+        "subjackpotValue": "3979.27 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Must Go Rapid Jackpot",
+        "subjackpotValue": "308.56 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "HanzelAndGretalTreasureTrail",
+    "jackpotValue": "4419.35 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Diamond",
+        "subjackpotValue": "3290.68 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Ruby",
+        "subjackpotValue": "822.82 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Gold",
+        "subjackpotValue": "276.62 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Silver",
+        "subjackpotValue": "29.23 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Sporting Legends Jackpot",
+    "jackpotValue": "189520.66 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Sporting Legends Jackpot",
+        "subjackpotValue": "189520.66 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Cash Flash Jackpots",
+    "jackpotValue": "1565.19 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Ca$h Fla$h Jackpot",
+        "subjackpotValue": "1565.19 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Everybodys Jackpot",
+    "jackpotValue": "0.00 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Everybodys Jackpot",
+        "subjackpotValue": "0.00 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "FRUIT VEGAS JACKPOT",
+    "jackpotValue": "1332.45 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "SMART MONEY JACKPOT",
+        "subjackpotValue": "1332.45 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Lucky Chest Jackpot",
+    "jackpotValue": "227753.00 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Lucky Chest Jackpot",
+        "subjackpotValue": "227753.00 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Beach Life Jackpot",
+    "jackpotValue": "592038.35 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Beach Life Jackpot",
+        "subjackpotValue": "592038.35 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Pink Panther Adventure Mystery Jackpot",
+    "jackpotValue": "3332.64 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Pink Panther Adventure Mystery Jackpot",
+        "subjackpotValue": "3332.64 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "PCP Jackpot Group",
+    "jackpotValue": "121079.58 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Progressive Caribbean Poker Jackpot",
+        "subjackpotValue": "121079.58 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Arabian Jackpot",
+    "jackpotValue": "727861.21 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "arabian",
+        "subjackpotValue": "727861.21 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Funky Monkey Jackpot",
+    "jackpotValue": "734655.37 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Funky Monkey Jackpot",
+        "subjackpotValue": "734655.37 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Land of Gold",
+    "jackpotValue": "69181.74 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Land of Gold",
+        "subjackpotValue": "69181.74 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Diamond Wild",
+    "jackpotValue": "654232.54 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Diamond Wild",
+        "subjackpotValue": "654232.54 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Fire Drake 2 Inferno Jackpot",
+    "jackpotValue": "9708.45 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Fire Drake 2 Inferno Jackpot",
+        "subjackpotValue": "8700.91 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Fire Drake 2 Blaze Jackpot",
+        "subjackpotValue": "875.10 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Fire Drake 2 Ember Jackpot",
+        "subjackpotValue": "132.44 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Oktoberfest Madness Smashed Jackpot",
+    "jackpotValue": "8653.55 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Oktoberfest Madness Buzzed Jackpot",
+        "subjackpotValue": "200.50 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Oktoberfest Madness Tipsy Jackpot",
+        "subjackpotValue": "741.62 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Oktoberfest Madness Smashed Jackpot",
+        "subjackpotValue": "7711.43 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Atlantis Poseidon Jackpot",
+    "jackpotValue": "4997.36 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Atlantis Hercules Jackpot",
+        "subjackpotValue": "811.16 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "Atlantis Poseidon Jackpot",
+        "subjackpotValue": "4186.19 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Hall of Gods Jackpot",
+    "jackpotValue": "909690.61 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "hog_medium",
+        "subjackpotValue": "222845.53 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "hog_large",
+        "subjackpotValue": "686004.50 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "hog_small",
+        "subjackpotValue": "840.58 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Super Jackpot",
+    "jackpotValue": "44912.90 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Super Jackpot",
+        "subjackpotValue": "44912.90 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Pharaohs Treasure Deluxe",
+    "jackpotValue": "259668.08 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Pharaohs Treasure Deluxe",
+        "subjackpotValue": "259668.08 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Dragon Jackpot",
+    "jackpotValue": "36655.07 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Dragon Jackpot",
+        "subjackpotValue": "36655.07 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Sweet Party",
+    "jackpotValue": "640103.29 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Sweet Party",
+        "subjackpotValue": "640103.29 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Frankie Dettoris Magic Seven Jackpot",
+    "jackpotValue": "426908.05 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Frankie Dettoris Magic Seven Jackpot",
+        "subjackpotValue": "426908.05 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "megajackpot",
+    "jackpotValue": "2864562.63 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "megajackpot1",
+        "subjackpotValue": "2848939.26 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "megajackpot3",
+        "subjackpotValue": "302.07 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "megajackpot2",
+        "subjackpotValue": "15321.30 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "DOWNTON ABBEY",
+    "jackpotValue": "46974.39 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "VILLAGE JACKPOT",
+        "subjackpotValue": "104.99 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "CRAWLEY JACKPOT",
+        "subjackpotValue": "793.83 GBP",
+        "subjackpotCurrency": "GBP"
+      },
+      {
+        "subjackpotName": "GRANTHAN JACKPOT",
+        "subjackpotValue": "46075.56 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Caribbean Stud Poker",
+    "jackpotValue": "4552.64 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Caribbean Stud Poker",
+        "subjackpotValue": "4552.64 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Age of the Gods Jackpot",
+    "jackpotValue": "515813.33 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Age of the Gods Jackpot",
+        "subjackpotValue": "515813.33 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Five Stars Mega Jackpot",
+    "jackpotValue": "15364.34 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+      {
+        "subjackpotName": "Five Stars Mega Jackpot",
+        "subjackpotValue": "15364.34 GBP",
+        "subjackpotCurrency": "GBP"
+      }
+    ]
+  },
+  {
+    "jackpotName": "Total",
+    "jackpotValue": "25931236.13 GBP",
+    "currency": "GBP",
+    "lastUpdatedDate": "07/25/19 19:31:42 ET",
+    "subJackpotDetails": [
+    ]
+  }
+]}

@@ -1,0 +1,68 @@
+    // Media queries
+    @mixin for-size($size) {
+        @if $size == phone-only {
+          @media (max-width: 599px) { @content; }
+        } @else if $size == tablet-portrait-up {
+          @media (min-width: 600px) { @content; }
+        } @else if $size == tablet-landscape-up {
+          @media (min-width: 900px) { @content; }
+        } @else if $size == desktop-up {
+          @media (min-width: 1200px) { @content; }
+        } @else if $size == big-desktop-up {
+          @media (min-width: 1800px) { @content; }
+        }
+      }
+    
+    
+    // Login Button Mixin
+    @mixin button-bg($bg) {
+        background: $bg;
+        &:hover {
+        background:darken($bg,8%);
+        transition: all 0.3s ease;
+        }
+        &:active {
+        background:darken($bg,25%);
+        }
+        color:white;
+        text-decoration:none;
+        padding: 0.7em 2em;
+        border-radius: 3px;
+        font-family: 'Roboto';
+        font-weight: bold; 
+    }
+    // For the available payment partner logos
+    @mixin backgroundLogo ($filename, $backgroundSize, $position: center, $repeat: no-repeat, ) {
+        background: transparent url(#{$imagedir}#{$filename}) $repeat $position;
+        background-color: $thirdPurple;
+        padding: 2em 5.5em;
+        border-radius: 3px;
+        width: 10em;
+        display: inline-block;
+        background-size: $backgroundSize;
+
+        @include for-size(desktop-up) {
+            padding: 1em 2em;
+            background-size: $backgroundSize - 15;
+            width: 5em;
+            margin: 1em 0 0.5em 0;
+        }
+    }
+    // For the small (3) available partner logos
+    @mixin otherLogo ($filename, $padding, $height, $repeat: no-repeat ) {
+        background: transparent url(#{$imagedir}#{$filename}) $repeat;
+        background-size: 100%;
+        padding: $padding;
+        display: inline-block;
+        margin: 0 auto;
+        height: $height;
+    }
+
+    // Mixin to offset positioning (useful when you want to move elements around without the use of insertBefore/After)
+    @mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+        position: $position;
+        top: $top;
+        right: $right;
+        bottom: $bottom;
+        left: $left;
+      }

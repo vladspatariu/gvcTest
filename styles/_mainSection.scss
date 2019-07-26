@@ -1,0 +1,359 @@
+.main-content {
+    background-color: $mainPurple;
+    color: #fff;
+
+    // Main Banner
+    .banner {
+        background: url('media/mobile_cover.png') no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 44vh;
+        @include for-size(desktop-up) {    
+            background: url('media/desktop_cover.png') no-repeat;
+            background-size: cover;
+            height: 55vh;
+         }
+        
+        // Titles
+        .titles {
+            text-align: center;
+            padding-top: 1em;
+            position: relative;
+            height: 44vh;
+            @include for-size(desktop-up) {
+                height: 55vh;
+            }
+
+            .bonus-title {
+                font-family: Roboto;
+                font-style: italic;
+                font-size: 1.5em;
+                color: #d3137a;
+                @include for-size(desktop-up) {
+                    margin: 3% 0 0 23%;
+                }
+            }
+            .main-title {
+                font-family: Roboto Condensed;
+                font-weight: bold;
+                font-size: 2em;
+                @include for-size(desktop-up) {
+                    margin: 0 0 0 24%;
+                    font-weight: 900;
+                }
+            }
+            .new-players {
+                font-family: Roboto Light;
+                font-size: 0.5em;
+                color: $footerGray;
+                background-color: #000000cf;
+                position: absolute;
+                bottom: 0;
+                @include for-size(desktop-up) {
+                    color: #d1cccc;
+                    font-size: 0.6em;
+                    left: 0;
+                    right: 0;
+                }
+            }
+            .get-started {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 6em;
+                @include for-size(desktop-up) {
+                    position: relative;
+                    margin: 8% 0 0 24%;
+                }
+                .btn-green {
+                    @include button-bg(#52aa3f);
+                    padding: 0.7em 6em;
+                    @include for-size(desktop-up) {
+                        padding: 1em 2.5em;
+                        font-size: 0.7em;
+                    }
+                }
+            }
+
+            #egr-casino {
+                background: url('media/EGRCasino.png') no-repeat;
+                background-size: 100%;
+                width: 12em;
+                position: absolute;
+                height: 2em;
+                bottom: 1em;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                @include for-size(desktop-up) {
+                    @include position(absolute, -1.8em, 0, 0, 26em);
+                    background-size: 85%;
+                }
+
+            }
+        }
+    }
+
+    // Deposit circles
+    .deposits {
+         padding: 1em 0 0 0;
+        @include for-size(desktop-up) {
+            padding: $desktopPadding;
+            margin-top: 1em;
+            // text-align: center;
+        }
+
+        .deposit-item {
+            display: block;
+            margin: 1em 0;
+            width: 21em;
+            height: 9em;
+            @include for-size(desktop-up) {
+                display: inline-block;
+                margin: 1em 0.6em 0 0;
+                width: 11.6em;
+                height: 9em;
+            }
+        }
+        .number-circle {
+            border: 2px #fff solid;
+            display: inline-block;
+            border-radius: 50%;
+            font-family: 'Roboto';
+            font-size: 3em;
+            font-weight: bold;
+            padding: 25px 40px;
+            margin: 0 0 0 7%;
+            float: left;
+            @include for-size(desktop-up) {
+                font-size: 2em;
+                padding: 15px 25px;
+                margin: 0;
+            }
+        }
+        .deposit-title {
+            display: inline-block;
+            font-family: 'Roboto';
+            padding: 0 0 0 1em;
+            width: 50%;
+            @include for-size(desktop-up) {
+                width: 33%;
+                text-align: left;
+                margin-left: 0.5em;
+                padding: 0;
+            }
+            div {
+                font-family: 'Roboto';
+                font-weight: 900;
+                font-size: x-large;
+                @include for-size(desktop-up) {
+                    font-size: larger;
+                    line-height: 1em;
+                }
+            }
+            .deposit-subtitle {
+                font-family: roboto condensed;
+                font-weight: 100;
+                @include for-size(desktop-up) {
+                    font-size: 0.7em;
+                    width: 10em;
+                    margin-top: 0.5em;
+                }
+            }
+        }
+        .vertical-line {
+            border-left: 2px solid #fff;
+            height: 2.6em;
+            margin: 1.1em 0 0 4.8em;
+            @include for-size(desktop-up) {    
+                display: none;
+            }
+        }
+        .horizontal-line {
+            display: none;
+            width: 2em;
+            border-top: 2px solid #fff;
+            @include for-size(desktop-up) {
+                display: inline-block;
+                padding: 4% 8% 0 0;
+                margin-right: 2%;
+            }
+        }
+    }   // end deposits
+
+    .jackpot {
+        background: url('media/jackpot.png') no-repeat;
+        width: 23.4em;
+        height: 5em;
+        background-size: 100%;
+        padding: 2em 0 1em 0;
+        margin: -1em auto 1em auto;
+            @include for-size(desktop-up) {
+                width: 26em;
+                margin: -3em auto 0 auto;
+            }
+        #jackpot-value {
+            float: right;
+            margin: -0.7em 0 0 0;
+            font-size: 1em;
+            font-family: Roboto Condensed;
+            font-weight: bold;
+            letter-spacing: 8px;
+            padding: 0 3% 0% 3%;
+            background: url('media/counter_image.png') no-repeat;
+            background-size: 169px 24px;
+                @include for-size(desktop-up) {
+                    margin: -0.5em 0 0 0 ;
+                    letter-spacing: 9px;
+                    padding: 0 0.7em;
+                    background-size: 177px 24px;
+                }
+        }
+    }
+    // Terms and conditions dropdown
+    .legal {
+        background-color: $secondaryPurple;
+        color: #fff;
+        margin-top: -1em;
+            @include for-size(desktop-up) {
+                margin: $desktopPadding;
+            }
+            span {
+                font-family: Roboto Condensed;
+            }
+    }
+    input {
+        display: none;
+        visibility: hidden;
+    }
+    label {
+        display: block;
+        padding: 0.5em 1em 1em 1em;
+        text-align: left;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    label:hover {
+    color: #fff;
+    }
+    label::before {
+    font-family: Consolas, monaco, monospace;
+    font-weight: 400;
+    font-size: 1.5em;
+    content: "+";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    color: red;
+    }
+    #expand {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+    background-color: $mainPurple;
+    color: #FFF;
+        p {
+            padding-top: 1em;
+        }
+    }
+    section {
+    padding: 0 20px;
+    }
+    #toggle:checked ~ #expand {
+    height: 200px;
+    }
+    #toggle:checked ~ label::before {
+    content: "-";
+    }
+
+    // Financial Partner Logos
+    .payment-logos {
+        margin-top: 1em;
+        padding: 0 0.5em 0.3em 0.5em;
+        text-align: center;
+        @include for-size(desktop-up) {
+            margin: $desktopPadding;
+            text-align: left;
+        }
+        .payment-logo1 {
+            @include backgroundLogo('logo1.png', 50%);
+        }
+        .payment-logo2 {
+            @include backgroundLogo('logo2.png', 90%);
+        }
+        .payment-logo3 {
+            @include backgroundLogo('logo3.png', 50%);
+        }
+        .payment-logo4 {
+            @include backgroundLogo('logo4.png', 60%);
+        }
+        .payment-logo5 {
+            @include backgroundLogo('logo5.png', 90%);
+        }
+        .payment-logo6 {
+            @include backgroundLogo('logo6.png', 90%);
+        }
+        .secondary-desktop-logos {
+            display: none;
+            .other-logo1 {
+                @include otherLogo('otherlogos1.png', 1em 4.2em, 2.4em);
+            }
+            .other-logo2 {
+                @include otherLogo('otherlogos2.png', 1.2em 3em, 2.8em);
+            }
+            @include for-size(desktop-up) {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+// Footer
+#footer-information {
+    height: auto;
+    background-color: $thirdPurple;
+    color: $footerGray;
+    font-family: Roboto Regular;
+    font-size: smaller;
+    @include for-size(desktop-up) {
+        padding: 2% 25% 1% 25%;
+    }
+
+    // Those 3 tiny logos
+    .other-logo-container {
+        background-color: $thirdPurple;
+        padding: 1em 0;
+        text-align: center;
+        @include for-size(desktop-up) {
+            display: none;
+        }
+        .other-logo1 {
+            @include otherLogo('otherlogos1.png', 1em 4.2em, 0);
+        }
+        .other-logo2 {
+            @include otherLogo('otherlogos2.png', 1.2em 3em, 0);
+        }
+    }
+    .footer-content {
+        padding: 0 1em;
+        .footer-address {
+            padding: 2em 0 1em 0;
+            #minimum-age {
+                background: url('media/18.png') no-repeat;
+                background-size: 100%;
+                display: inline-block;
+                padding: 2em 0;
+                width: 4em;
+            }
+            p {
+                margin:-3.3em 0 1em 5em;
+            }
+        }
+    }
+}
+// Left it out here in order to hide link styling globally
+a {
+    color: #fff;
+    text-decoration: none; /* no underline */
+  }
