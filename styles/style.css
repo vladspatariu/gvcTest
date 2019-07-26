@@ -13,7 +13,7 @@ header {
 @media (min-width: 1200px) {
   header {
     padding: 0 25%;
-    min-height: 2.5em;
+    height: 60px;
   }
 }
 
@@ -29,7 +29,11 @@ header #logo {
 
 @media (min-width: 1200px) {
   header #logo {
+    background: url("media/pc-logo-2017.png") no-repeat center left;
+    background-size: 70%;
     margin: 1.3% 0 0 0;
+    width: 180px;
+    height: 50px;
   }
 }
 
@@ -55,8 +59,10 @@ header .btn-blue:active {
 
 @media (min-width: 1200px) {
   header .btn-blue {
-    font-size: 0.6em;
-    padding: 0.9em 3em;
+    font-size: 0.8em;
+    padding: 0.9em 3em 0.9em 3em;
+    position: absolute;
+    top: 15px;
   }
 }
 
@@ -115,6 +121,7 @@ header .log-in {
 @media (min-width: 1200px) {
   .main-content .banner .titles .bonus-title {
     margin: 3% 0 0 23%;
+    font-size: 33px;
   }
 }
 
@@ -128,6 +135,7 @@ header .log-in {
   .main-content .banner .titles .main-title {
     margin: 0 0 0 24%;
     font-weight: 900;
+    font-size: 50px;
   }
 }
 
@@ -143,7 +151,9 @@ header .log-in {
 @media (min-width: 1200px) {
   .main-content .banner .titles .new-players {
     color: #d1cccc;
-    font-size: 0.6em;
+    font-size: 0.7em;
+    line-height: 16px;
+    padding: 7px 10px;
     left: 0;
     right: 0;
   }
@@ -186,8 +196,8 @@ header .log-in {
 
 @media (min-width: 1200px) {
   .main-content .banner .titles .get-started .btn-green {
-    padding: 1em 2.5em;
-    font-size: 0.7em;
+    padding: 13px 50px;
+    font-size: 20px;
   }
 }
 
@@ -210,6 +220,13 @@ header .log-in {
     right: 0;
     bottom: 0;
     left: 26em;
+    top: -3em;
+    background-size: 85%;
+    width: 215px;
+    right: 0;
+    bottom: 0;
+    left: 32em;
+    height: 60px;
     background-size: 85%;
   }
 }
@@ -256,8 +273,8 @@ header .log-in {
 
 @media (min-width: 1200px) {
   .main-content .deposits .number-circle {
-    font-size: 2em;
-    padding: 15px 25px;
+    font-size: 2.5em;
+    padding: 20px 30px;
     margin: 0;
   }
 }
@@ -286,7 +303,7 @@ header .log-in {
 
 @media (min-width: 1200px) {
   .main-content .deposits .deposit-title div {
-    font-size: larger;
+    font-size: x-large;
     line-height: 1em;
   }
 }
@@ -298,7 +315,7 @@ header .log-in {
 
 @media (min-width: 1200px) {
   .main-content .deposits .deposit-title .deposit-subtitle {
-    font-size: 0.7em;
+    font-size: 0.9em;
     width: 10em;
     margin-top: 0.5em;
   }
@@ -325,7 +342,7 @@ header .log-in {
 @media (min-width: 1200px) {
   .main-content .deposits .horizontal-line {
     display: inline-block;
-    padding: 4% 8% 0 0;
+    padding: 5.5% 8% 0 0;
     margin-right: 2%;
   }
 }
@@ -342,7 +359,7 @@ header .log-in {
 @media (min-width: 1200px) {
   .main-content .jackpot {
     width: 26em;
-    margin: -3em auto 0 auto;
+    margin: 0 auto;
   }
 }
 
@@ -375,7 +392,7 @@ header .log-in {
 
 @media (min-width: 1200px) {
   .main-content .legal {
-    margin: 0 25%;
+    margin: 2% 25% 0 25%;
   }
 }
 

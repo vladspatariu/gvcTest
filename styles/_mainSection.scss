@@ -31,6 +31,7 @@
                 color: #d3137a;
                 @include for-size(desktop-up) {
                     margin: 3% 0 0 23%;
+                    font-size: 33px;
                 }
             }
             .main-title {
@@ -40,6 +41,7 @@
                 @include for-size(desktop-up) {
                     margin: 0 0 0 24%;
                     font-weight: 900;
+                    font-size: 50px;
                 }
             }
             .new-players {
@@ -51,7 +53,9 @@
                 bottom: 0;
                 @include for-size(desktop-up) {
                     color: #d1cccc;
-                    font-size: 0.6em;
+                    font-size: 0.7em;
+                    line-height: 16px;
+                    padding: 7px 10px;
                     left: 0;
                     right: 0;
                 }
@@ -69,8 +73,8 @@
                     @include button-bg(#52aa3f);
                     padding: 0.7em 6em;
                     @include for-size(desktop-up) {
-                        padding: 1em 2.5em;
-                        font-size: 0.7em;
+                        padding: 13px 50px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -87,6 +91,13 @@
                 margin: 0 auto;
                 @include for-size(desktop-up) {
                     @include position(absolute, -1.8em, 0, 0, 26em);
+                    top: -3em;
+                    background-size: 85%;
+                    width: 215px;
+                    right: 0;
+                    bottom: 0;
+                    left: 32em;
+                    height: 60px;
                     background-size: 85%;
                 }
 
@@ -126,8 +137,8 @@
             margin: 0 0 0 7%;
             float: left;
             @include for-size(desktop-up) {
-                font-size: 2em;
-                padding: 15px 25px;
+                font-size: 2.5em;
+                padding: 20px 30px;
                 margin: 0;
             }
         }
@@ -147,7 +158,7 @@
                 font-weight: 900;
                 font-size: x-large;
                 @include for-size(desktop-up) {
-                    font-size: larger;
+                    font-size: x-large;
                     line-height: 1em;
                 }
             }
@@ -155,7 +166,7 @@
                 font-family: roboto condensed;
                 font-weight: 100;
                 @include for-size(desktop-up) {
-                    font-size: 0.7em;
+                    font-size: 0.9em;
                     width: 10em;
                     margin-top: 0.5em;
                 }
@@ -175,7 +186,7 @@
             border-top: 2px solid #fff;
             @include for-size(desktop-up) {
                 display: inline-block;
-                padding: 4% 8% 0 0;
+                padding: 5.5% 8% 0 0;
                 margin-right: 2%;
             }
         }
@@ -190,7 +201,7 @@
         margin: -1em auto 1em auto;
             @include for-size(desktop-up) {
                 width: 26em;
-                margin: -3em auto 0 auto;
+                margin: 0 auto;
             }
         #jackpot-value {
             float: right;
@@ -216,7 +227,7 @@
         color: #fff;
         margin-top: -1em;
             @include for-size(desktop-up) {
-                margin: $desktopPadding;
+                margin: 2% 25% 0 25%;
             }
             span {
                 font-family: Roboto Condensed;
