@@ -19,21 +19,34 @@ header {
 
 header #logo {
   background: url("media/pc-logo-2017.png") no-repeat top left;
-  margin: 7% -40% 0% 4%;
   min-width: 18em;
   min-height: 2em;
-  float: left;
   background-size: 50%;
   display: inline-block;
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
 }
 
 @media (min-width: 1200px) {
   header #logo {
-    background: url("media/pc-logo-2017.png") no-repeat center left;
     background-size: 70%;
-    margin: 1.3% 0 0 0;
+    left: 25%;
     width: 180px;
     height: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header #egr-header {
+    background: url("media/EGRCasino.png") no-repeat;
+    position: relative;
+    top: 1.5em;
+    right: 1em;
+    background-size: 100%;
+    width: 13em;
+    height: 3em;
+    float: right;
   }
 }
 
@@ -60,21 +73,25 @@ header .btn-blue:active {
 @media (min-width: 1200px) {
   header .btn-blue {
     font-size: 0.8em;
-    padding: 0.9em 3em 0.9em 3em;
+    padding: 0.9em 0em;
     position: absolute;
-    top: 15px;
+    width: 9em;
+    text-align: center;
   }
 }
 
 header .log-in {
   display: inline-block;
-  margin: 7% 6% 0 0;
   float: right;
+  position: absolute;
+  top: 25px;
+  right: 20px;
 }
 
 @media (min-width: 1200px) {
   header .log-in {
-    margin: 1% 0 0 0;
+    right: 25%;
+    top: 15px;
   }
 }
 
@@ -87,14 +104,14 @@ header .log-in {
   background: url("media/mobile_cover.png") no-repeat;
   background-size: 100%;
   width: 100%;
-  height: 44vh;
+  height: 45vh;
 }
 
 @media (min-width: 1200px) {
   .main-content .banner {
     background: url("media/desktop_cover.png") no-repeat;
     background-size: cover;
-    height: 55vh;
+    height: 60vh;
   }
 }
 
@@ -102,17 +119,17 @@ header .log-in {
   text-align: center;
   padding-top: 1em;
   position: relative;
-  height: 44vh;
+  height: 45vh;
 }
 
 @media (min-width: 1200px) {
   .main-content .banner .titles {
-    height: 55vh;
+    height: 60vh;
   }
 }
 
 .main-content .banner .titles .bonus-title {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: italic;
   font-size: 1.5em;
   color: #d3137a;
@@ -126,7 +143,7 @@ header .log-in {
 }
 
 .main-content .banner .titles .main-title {
-  font-family: Roboto Condensed;
+  font-family: 'Roboto Black';
   font-weight: bold;
   font-size: 2em;
 }
@@ -134,42 +151,57 @@ header .log-in {
 @media (min-width: 1200px) {
   .main-content .banner .titles .main-title {
     margin: 0 0 0 24%;
-    font-weight: 900;
     font-size: 50px;
   }
 }
 
 .main-content .banner .titles .new-players {
-  font-family: Roboto Light;
+  font-family: Roboto;
   font-size: 0.5em;
   color: #667085;
   background-color: #000000cf;
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 900px) {
+  .main-content .banner .titles .new-players {
+    font-size: 0.7em;
+    padding: 5px 10px;
+  }
 }
 
 @media (min-width: 1200px) {
   .main-content .banner .titles .new-players {
     color: #d1cccc;
-    font-size: 0.7em;
     line-height: 16px;
     padding: 7px 10px;
-    left: 0;
-    right: 0;
   }
 }
 
 .main-content .banner .titles .get-started {
   position: absolute;
-  left: 0;
   right: 0;
   bottom: 6em;
+  left: 0;
+}
+
+@media (min-width: 900px) {
+  .main-content .banner .titles .get-started {
+    bottom: 10em;
+  }
 }
 
 @media (min-width: 1200px) {
   .main-content .banner .titles .get-started {
     position: relative;
-    margin: 8% 0 0 24%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 3% 0 0% 24%;
   }
 }
 
@@ -203,31 +235,25 @@ header .log-in {
 
 .main-content .banner .titles #egr-casino {
   background: url("media/EGRCasino.png") no-repeat;
-  background-size: 100%;
-  width: 12em;
   position: absolute;
-  height: 2em;
+  right: 0;
   bottom: 1em;
   left: 0;
-  right: 0;
+  background-size: 100%;
+  width: 12em;
+  height: 2em;
   margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  .main-content .banner .titles #egr-casino {
+    bottom: 2em;
+  }
 }
 
 @media (min-width: 1200px) {
   .main-content .banner .titles #egr-casino {
-    position: absolute;
-    top: -1.8em;
-    right: 0;
-    bottom: 0;
-    left: 26em;
-    top: -3em;
-    background-size: 85%;
-    width: 215px;
-    right: 0;
-    bottom: 0;
-    left: 32em;
-    height: 60px;
-    background-size: 85%;
+    display: none;
   }
 }
 
@@ -235,11 +261,24 @@ header .log-in {
   padding: 1em 0 0 0;
 }
 
+@media (min-width: 900px) {
+  .main-content .deposits {
+    margin: 1.5% 0 0 -5%;
+    text-align: center;
+  }
+}
+
 @media (min-width: 1200px) {
   .main-content .deposits {
+    margin: 1.5% 0 0 0;
+    padding: 0 18%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .main-content .deposits {
+    margin: 1.5% 0 0 0;
     padding: 0 25%;
-    margin-top: 1em;
-    text-align: center;
   }
 }
 
@@ -250,7 +289,7 @@ header .log-in {
   height: 9em;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .main-content .deposits .deposit-item {
     display: inline-block;
     margin: 1em 0.6em 0 0;
@@ -263,7 +302,7 @@ header .log-in {
   border: 2px #fff solid;
   display: inline-block;
   border-radius: 50%;
-  font-family: 'Roboto';
+  font-family: 'Roboto Black';
   font-size: 3em;
   font-weight: bold;
   padding: 25px 40px;
@@ -271,7 +310,7 @@ header .log-in {
   float: left;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .main-content .deposits .number-circle {
     font-size: 2.5em;
     padding: 20px 30px;
@@ -281,39 +320,43 @@ header .log-in {
 
 .main-content .deposits .deposit-title {
   display: inline-block;
-  font-family: 'Roboto';
+  font-family: 'Roboto Black';
   padding: 0 0 0 1em;
   width: 50%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .main-content .deposits .deposit-title {
     width: 33%;
     text-align: left;
-    margin-left: -1.5em;
+    margin-left: 0.5em;
     padding: 0;
   }
 }
 
+@media (min-width: 1200px) {
+  .main-content .deposits .deposit-title {
+    margin-left: -1.5em;
+  }
+}
+
 .main-content .deposits .deposit-title div {
-  font-family: 'Roboto';
-  font-weight: 900;
+  font-family: 'Roboto Black';
   font-size: x-large;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .main-content .deposits .deposit-title div {
-    font-size: x-large;
     line-height: 1em;
   }
 }
 
 .main-content .deposits .deposit-title .deposit-subtitle {
-  font-family: roboto condensed;
+  font-family: 'Roboto Light';
   font-weight: 100;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .main-content .deposits .deposit-title .deposit-subtitle {
     font-size: 0.9em;
     width: 10em;
@@ -327,7 +370,7 @@ header .log-in {
   margin: 1.1em 0 0 4.8em;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .main-content .deposits .vertical-line {
     display: none;
   }
@@ -339,11 +382,25 @@ header .log-in {
   border-top: 2px solid #fff;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .main-content .deposits .horizontal-line {
     display: inline-block;
-    padding: 5.5% 8% 0 0;
-    margin-right: 2%;
+    padding: 2.5em 4em 0 0;
+    margin: 0 2% 0 4%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-content .deposits .horizontal-line {
+    margin: 0 1em;
+    padding: 2.5em 3em 0 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .main-content .deposits .horizontal-line {
+    padding: 2.5em 2.5em 0 0;
+    margin: 0 1em;
   }
 }
 

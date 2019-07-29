@@ -7,11 +7,11 @@
         background: url('media/mobile_cover.png') no-repeat;
         background-size: 100%;
         width: 100%;
-        height: 44vh;
+        height: 45vh;
         @include for-size(desktop-up) {    
             background: url('media/desktop_cover.png') no-repeat;
             background-size: cover;
-            height: 55vh;
+            height: 60vh;
          }
         
         // Titles
@@ -19,13 +19,13 @@
             text-align: center;
             padding-top: 1em;
             position: relative;
-            height: 44vh;
+            height: 45vh;
             @include for-size(desktop-up) {
-                height: 55vh;
+                height: 60vh;
             }
 
             .bonus-title {
-                font-family: Roboto;
+                font-family: 'Roboto';
                 font-style: italic;
                 font-size: 1.5em;
                 color: #d3137a;
@@ -35,39 +35,42 @@
                 }
             }
             .main-title {
-                font-family: Roboto Condensed;
+                font-family: 'Roboto Black';
                 font-weight: bold;
-                font-size: 2em;
+                 font-size: 2em;
                 @include for-size(desktop-up) {
                     margin: 0 0 0 24%;
-                    font-weight: 900;
                     font-size: 50px;
                 }
             }
             .new-players {
-                font-family: Roboto Light;
+                font-family: Roboto;
                 font-size: 0.5em;
                 color: $footerGray;
                 background-color: #000000cf;
                 position: absolute;
                 bottom: 0;
+                left: 0;
+                right: 0;
+                @include for-size(tablet-landscape-up) {
+                    font-size: 0.7em;
+                    padding: 5px 10px;
+                }
                 @include for-size(desktop-up) {
                     color: #d1cccc;
-                    font-size: 0.7em;
                     line-height: 16px;
                     padding: 7px 10px;
-                    left: 0;
-                    right: 0;
+
                 }
             }
             .get-started {
-                position: absolute;
-                left: 0;
-                right: 0;
-                bottom: 6em;
+                @include position(absolute, null, 0, 6em, 0);
+                @include for-size(tablet-landscape-up) {
+                    bottom: 10em;
+                }
                 @include for-size(desktop-up) {
-                    position: relative;
-                    margin: 8% 0 0 24%;
+                    @include position(relative, 0, 0, 0, 0);
+                    margin: 3% 0 0% 24%;
                 }
                 .btn-green {
                     @include button-bg(#52aa3f);
@@ -81,24 +84,16 @@
 
             #egr-casino {
                 background: url('media/EGRCasino.png') no-repeat;
+                @include position(absolute, null, 0, 1em, 0);
                 background-size: 100%;
                 width: 12em;
-                position: absolute;
                 height: 2em;
-                bottom: 1em;
-                left: 0;
-                right: 0;
                 margin: 0 auto;
+                @include for-size(tablet-landscape-up) {
+                    bottom: 2em;
+                }
                 @include for-size(desktop-up) {
-                    @include position(absolute, -1.8em, 0, 0, 26em);
-                    top: -3em;
-                    background-size: 85%;
-                    width: 215px;
-                    right: 0;
-                    bottom: 0;
-                    left: 32em;
-                    height: 60px;
-                    background-size: 85%;
+                    display: none;
                 }
 
             }
@@ -108,18 +103,26 @@
     // Deposit circles
     .deposits {
          padding: 1em 0 0 0;
-        @include for-size(desktop-up) {
-            padding: $desktopPadding;
-            margin-top: 1em;
+         @include for-size(tablet-landscape-up) {
+            margin: 1.5% 0 0 -5%;
             text-align: center;
+         }
+        @include for-size(desktop-up) {
+            margin: 1.5% 0 0 0;
+            padding: 0 18%;
         }
+        @include for-size(big-desktop-up) {
+            margin: 1.5% 0 0 0;
+            padding: $desktopPadding;
+        }
+        
 
         .deposit-item {
             display: block;
             margin: 1em 0;
             width: 21em;
             height: 9em;
-            @include for-size(desktop-up) {
+            @include for-size(tablet-landscape-up) {
                 display: inline-block;
                 margin: 1em 0.6em 0 0;
                 width: 11.6em;
@@ -130,13 +133,13 @@
             border: 2px #fff solid;
             display: inline-block;
             border-radius: 50%;
-            font-family: 'Roboto';
+            font-family: 'Roboto Black';
             font-size: 3em;
             font-weight: bold;
             padding: 25px 40px;
             margin: 0 0 0 7%;
             float: left;
-            @include for-size(desktop-up) {
+            @include for-size(tablet-landscape-up) {
                 font-size: 2.5em;
                 padding: 20px 30px;
                 margin: 0;
@@ -144,28 +147,29 @@
         }
         .deposit-title {
             display: inline-block;
-            font-family: 'Roboto';
+            font-family: 'Roboto Black';
             padding: 0 0 0 1em;
             width: 50%;
-            @include for-size(desktop-up) {
+            @include for-size(tablet-landscape-up) {
                 width: 33%;
                 text-align: left;
-                margin-left: -1.5em;
+                margin-left: 0.5em;
                 padding: 0;
             }
+            @include for-size(desktop-up) {
+                margin-left: -1.5em;
+            }
             div {
-                font-family: 'Roboto';
-                font-weight: 900;
+                font-family: 'Roboto Black';
                 font-size: x-large;
-                @include for-size(desktop-up) {
-                    font-size: x-large;
+                @include for-size(tablet-landscape-up) {
                     line-height: 1em;
                 }
             }
             .deposit-subtitle {
-                font-family: roboto condensed;
+                font-family: 'Roboto Light';
                 font-weight: 100;
-                @include for-size(desktop-up) {
+                @include for-size(tablet-landscape-up) {
                     font-size: 0.9em;
                     width: 10em;
                     margin-top: 0.5em;
@@ -176,18 +180,26 @@
             border-left: 2px solid #fff;
             height: 2.6em;
             margin: 1.1em 0 0 4.8em;
-            @include for-size(desktop-up) {    
+            @include for-size(tablet-landscape-up) {    
                 display: none;
             }
         }
         .horizontal-line {
             display: none;
             width: 2em;
-            border-top: 2px solid #fff;
-            @include for-size(desktop-up) {
+            border-top: 2px solid #fff; 
+            @include for-size(tablet-landscape-up) {
                 display: inline-block;
-                padding: 5.5% 8% 0 0;
-                margin-right: 2%;
+                padding: 2.5em 4em 0 0;
+                margin: 0 2% 0 4%;
+            }
+            @include for-size(desktop-up) {
+                margin: 0 1em;
+                padding: 2.5em 3em 0 0;
+            }
+            @include for-size(big-desktop-up) {
+                padding: 2.5em 2.5em 0 0;
+                margin: 0 1em;
             }
         }
     }   // end deposits
@@ -246,37 +258,37 @@
         font-size: 1.1em;
     }
     label:hover {
-    color: #fff;
+        color: #fff;
     }
     label::before {
-    font-family: Consolas, monaco, monospace;
-    font-weight: 400;
-    font-size: 1.5em;
-    content: "+";
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-right: 3px;
-    color: red;
+        font-family: Consolas, monaco, monospace;
+        font-weight: 400;
+        font-size: 1.5em;
+        content: "+";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 3px;
+        color: red;
     }
     #expand {
-    height: 0px;
-    overflow: hidden;
-    transition: height 0.5s;
-    background-color: $mainPurple;
-    color: #FFF;
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.5s;
+        background-color: $mainPurple;
+        color: #FFF;
         p {
             padding-top: 1em;
         }
     }
     section {
-    padding: 0 20px;
+        padding: 0 20px;
     }
     #toggle:checked ~ #expand {
-    height: 200px;
+        height: 200px;
     }
     #toggle:checked ~ label::before {
-    content: "-";
+        content: "-";
     }
 
     // Financial Partner Logos

@@ -13,36 +13,50 @@ header {
     // Top-left logo
     #logo {
         background: url('media/pc-logo-2017.png') no-repeat top left;
-        margin: 7% -40% 0% 4%;
         min-width: 18em;
         min-height: 2em;
-        float: left;
         background-size: 50%;
         display: inline-block;
+        @include position(absolute, 1.5em, null, null, 1.5em);
         @include for-size(desktop-up) {
-            background: url('media/pc-logo-2017.png') no-repeat center left;
             background-size: 70%;
-            margin: 1.3% 0 0 0;
+            left: 25%;
             width: 180px;
             height: 50px;
         }
     }
+    // EGR Logo in Header
+    #egr-header {
+        @include for-size(desktop-up) {
+            background: url('media/EGRCasino.png') no-repeat;
+            @include position(relative, 1.5em, 1em, null, null);
+            background-size: 100%;
+            width: 13em;
+            height: 3em;
+            float: right;
+        }
 
+    }
+    // Log-in Button
     .btn-blue {
         @include button-bg(#3f74d9);
         @include for-size(desktop-up) {
             font-size: 0.8em;
-            padding: 0.9em 3em 0.9em 3em;
+            padding: 0.9em 0em;
             position: absolute;
-            top: 15px;
+            width: 9em;
+            text-align: center;
         }
      }   
     .log-in {
         display: inline-block;
-        margin: 7% 6% 0 0;
         float: right;
+        position: absolute;
+        top: 25px;
+        right: 20px;
         @include for-size(desktop-up) {
-            margin: 1% 0 0 0;
+            right: 25%;
+            top: 15px;
         }
 
     }
