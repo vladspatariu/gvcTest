@@ -307,7 +307,7 @@ header .log-in {
 @media (min-width: 900px) {
   .main-content .deposits .number-circle {
     font-size: 2.5em;
-    padding: 20px 30px;
+    padding: 20px 33px;
     margin: 0;
   }
 }
@@ -323,14 +323,13 @@ header .log-in {
   .main-content .deposits .deposit-title {
     width: 33%;
     text-align: left;
-    margin-left: 0.5em;
     padding: 0;
   }
 }
 
 @media (min-width: 1200px) {
   .main-content .deposits .deposit-title {
-    margin-left: -1.5em;
+    margin-left: -1em;
   }
 }
 
@@ -386,7 +385,7 @@ header .log-in {
 
 @media (min-width: 1200px) {
   .main-content .deposits .horizontal-line {
-    margin: 0 1em;
+    margin: 0 1em 0 1.2em;
     padding: 2.5em 3em 0 0;
   }
 }

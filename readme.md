@@ -13,6 +13,6 @@
 ###### For added realism I had the counter randomly increment between 00.1 and 00.5 every 5 seconds
 
 ###### Fixed fonts issue (Roboto Condensed and Roboto Black)
-###### Fixed scaling issues
+###### Fixed responsive UI issues
 ###### Implemented half-way responsive UI outside of the mock-ups, in case of limited viewport width or tablet landscape (will also upgrade media query mixins for retina devices if needed)
 ###### refactored some code

@@ -138,7 +138,7 @@
             float: left;
             @include for-size(tablet-landscape-up) {
                 font-size: 2.5em;
-                padding: 20px 30px;
+                padding: 20px 33px;
                 margin: 0;
             }
         }
@@ -150,11 +150,10 @@
             @include for-size(tablet-landscape-up) {
                 width: 33%;
                 text-align: left;
-                margin-left: 0.5em;
                 padding: 0;
             }
             @include for-size(desktop-up) {
-                margin-left: -1.5em;
+                margin-left: -1em;
             }
             div {
                 font-family: 'Roboto Black';
@@ -191,7 +190,7 @@
                 margin: 0 2% 0 4%;
             }
             @include for-size(desktop-up) {
-                margin: 0 1em;
+                margin: 0 1em 0 1.2em;
                 padding: 2.5em 3em 0 0;
             }
             @include for-size(big-desktop-up) {
