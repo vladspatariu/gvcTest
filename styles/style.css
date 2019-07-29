@@ -188,12 +188,6 @@ header .log-in {
   left: 0;
 }
 
-@media (min-width: 900px) {
-  .main-content .banner .titles .get-started {
-    bottom: 10em;
-  }
-}
-
 @media (min-width: 1200px) {
   .main-content .banner .titles .get-started {
     position: relative;

@@ -65,9 +65,6 @@
             }
             .get-started {
                 @include position(absolute, null, 0, 6em, 0);
-                @include for-size(tablet-landscape-up) {
-                    bottom: 10em;
-                }
                 @include for-size(desktop-up) {
                     @include position(relative, 0, 0, 0, 0);
                     margin: 3% 0 0% 24%;
